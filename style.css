@@ -1,0 +1,16 @@
+body {
+    background-color: #fefefe;
+}
+
+.mainHeader {
+    color: darkblue;
+}
+.articleHeader{
+    background-color: darkcyan;
+}
+h3 {
+    color: brown;
+}
+p {
+    color: hotpink;
+}
