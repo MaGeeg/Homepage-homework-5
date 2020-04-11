@@ -10,66 +10,119 @@
 </head>
 <body>
 
-    <h1 class="mainHeader">Mój rozkład tygodnia - pozdro github</h1>
-    
-    <article id="monday">
-        <h2 class="articleHeader">Plany na Poniedziałek</h2>
-        <p>o co common</p>
-        
-        
-       <h3> Czy planowanie poniedziałku to prosta sprawa?</h3>
-         <br>
-         <a href="monday.html">nie, chyba że masz pomocnika</a><br>
-        <img src="MO.jpg" alt="Monday">
-        
-    
-        
-        <h2 class="articleHeader">Plany na Wtorek</h2>
-        
-        <a href="tuesday.html">Dzień II  </a> <br>
-        <img src="TU.jpg" alt="Tuesday">
-       
-    </article>
-        
-    <article id="wednesday">
-        <h2 class="articleHeader">Plany na Środę</h2>
-        <a href="wednesday.html">Dzień III </a><br>
-        <img src="WE.jpg" alt="Wednesday">
-        
-    </article>
-        
-    <article id="thursday">
-        <h2 class="articleHeader">Plany na Czwartek</h2>
-        <a href="thursday.html">Dzień IV </a><br>
-        <img src="TH.jpg" alt="Thursday">
-        
-    </article>
-        
-    <article id="friday">  
-        <h2 class="articleHeader">Plany na Piątek</h2>
-        <a href="friday.html">Dzień V </a><br>
-        <img src="FR.png" alt="Friday">
-        
-    </article>
-        
-    <article id="saturday">
-        <h2 class="articleHeader">Plany na Sobotę</h2>
-        <a href="#tuesday">Dzień VI </a><br>
-        <img src="SA.jpg" alt="Saturday">
-        
-    </article>
-        
-    <article id="sunday">
-        <h2 class="articleHeader">Plany na Niedzielę</h2>
-        <a href="#monday">Dzień VII</a> <br>
-       
-        <img src="SU.jpg" alt="Sunday">
-       
-       
-    </article>
 
-    <script src="main.js">
+    <main class="main">
+
+        <section class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="monday.html">Monday</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="tuesday.html">Tuesday</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="wednesday.html">Wednesay</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="thursday.html">Thursday</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="friday.html">Friday</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="saturday.html">Saturday</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="sunday.html">Sunday</a>
+                </li>
+            </ul>
+        </section>
         
+            <h1 id="mainHeader">Mój rozkład tygodnia - pozdro github</h1>
+            <p class="paragraph--js"></p>
+
+        <div class="grid">
+        
+        
+            <article class="day">
+                <h2 class="day__title">Plany na Poniedziałek</h2>
+                <p class="paragraph">o co common</p>
+            
+            
+                <h3 class="day__title--description"> Czy planowanie poniedziałku to prosta sprawa?</h3>
+                    <br>
+                
+                <a class="day__link" href="monday.html">nie, chyba że masz pomocnika</a><br><br>
+                
+                <img src="MO.jpg" alt="Monday">
+            
+            </article>
+        
+            <article class="day">
+                <h2 class="day__title">Plany na Wtorek</h2>
+            
+                <a class="day__link" href="tuesday.html">Dzień II  </a> <br>
+                <img src="TU.jpg" alt="Tuesday">
+        
+            </article>
+            
+            <article class="day">
+                <h2 class="day__title">Plany na Środę</h2>
+                <a class="day__link" href="wednesday.html">Dzień III </a><br>
+                <img src="WE.jpg" alt="Wednesday">
+                
+            </article>
+            
+            <article class="day">
+                <h2 class="day__title">Plany na Czwartek</h2>
+                <a class="day__link" href="thursday.html">Dzień IV </a><br>
+                <img src="TH.jpg" alt="Thursday">
+                
+            </article>
+            
+            <article class="day">  
+                <h2 class="day__title">Plany na Piątek</h2>
+                <a class="day__link" href="friday.html">Dzień V </a><br>
+                <img src="FR.png" alt="Friday">
+                
+            </article>
+            
+            <article class="day">
+                <h2 class="day__title">Plany na Sobotę</h2>
+                <a class="day__link" href="saturday.html">Dzień VI </a><br>
+                <img src="SA.jpg" alt="Saturday">
+                
+            </article>
+            
+            <article class="day">
+                <h2 class="day__title">Plany na Niedzielę</h2>
+                <a class="day__link" href="sunday.html">Dzień VII</a> <br>
+            
+                <img src="SU.jpg" alt="Sunday">
+            
+            
+            </article>
+        
+            <article class="day">
+                <h2 class="day__title"> Sukcesy i Wnioski Tygodnia</h2>
+                <a class="day__link" href="#mainHeader">Podsumowanie</a> <br>
+                
+                <h3 class="day__title--description">Najważniejsze wydarzenia tygodnia</h3>
+                <ol>
+                    <li>Odczuwam dumę z</li><br><br>
+                    <li>Co można było zrobić lepiej</li><br><br>
+                    <li>Wnioski i lekcje które wyciągam na przyszłość</li><br><br>
+                </ol>
+                    
+            </article>
+        
+        
+        
+        </div>
+    </main>
+    <script 
+        src="main.js">
     </script>
 </body>
 </html>
