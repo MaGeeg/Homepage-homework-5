@@ -5,3 +5,8 @@ const para = document.querySelector('.paragraph--js');
 console.log(para.innerHTML);
 para.innerHTML = 'Witaj Piotr';
 console.log(para.innerHTML);
+
+function witaj (imie, wiek) {
+    console.log (`Twoje imie to ${imie} i masz ${wiek} lat.`)
+}
+witaj ('Bonifacy', '15');
