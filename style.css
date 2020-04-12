@@ -1,5 +1,6 @@
 body {
-    background-color: salmon;
+    /*background-color: salmon;*/
+    background: linear-gradient(141deg, rgba(45,248,253,1) 0%, rgba(34,195,190,0.6055556011467087) 55%, rgba(34,195,190,1) 100%);
 }
 a {
     color: #000;
